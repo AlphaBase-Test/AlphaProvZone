@@ -2019,6 +2019,25 @@ const ABI3 = [
     stateMutability: "view",
     type: "function",
   },
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+    ],
+    name: "timesUsedReferralCode",
+    outputs: [
+      {
+        internalType: "uint32",
+        name: "",
+        type: "uint32",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
 ];
 
 const contract3 = new web3Instance.eth.Contract(ABI3, conAddress3);
