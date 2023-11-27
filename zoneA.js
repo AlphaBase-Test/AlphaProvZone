@@ -1,7 +1,7 @@
 const web3Instance = new Web3(window.ethereum);
 const conAddress = "0x6994eD4f085b000eC4e0cA4F58cFCb11f075e13a";
 const conAddress2 = "0xc533936679A325622c42b9eF721a3E59Cf6B300c";
-const conAddress3 = "0x10B0c63Eb35e64e4dFFF50457dBD3a0f06033303";
+const conAddress3 = "0x59C901d203B1920E316f50d3847ED035D5c11Cfe";
 // ABI ABI ABI ABI ABI ABI ABI ABI ABI ABI ABI ABI ABI ABI ABI ABI ABI ABI
 const ABI = [
   {
